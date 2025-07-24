@@ -11,5 +11,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@emotion/react', '@emotion/styled'],
   },
-  base: 'https://ghost-ir.github.io/Panel.github.io/'
+  base: '/Panel.github.io/'
 })
