@@ -1,0 +1,40 @@
+.Wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Keeps other sections stacked vertically */
+}
+
+.DividerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Container for main chart and radar side-by-side */
+.ChartsContainer {
+    display: flex;
+    flex-direction: row; /* Places children side by side */
+    align-items: flex-start; /* Aligns items at the top */
+    width: 100%;
+    gap: 20px; /* optional: space between charts */
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+/* Main chart wrapper, adjustable width */
+.ChartWrapper {
+    width: 10%;
+    flex: 4;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+/* Radar chart wrapper, adjust width as needed */
+.RadarWrapper {
+    width: 30%; /* or any size that fits your design */
+    flex: 2;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}

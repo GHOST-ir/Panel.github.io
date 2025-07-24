@@ -1,0 +1,8 @@
+/* devider.css */
+.devide {
+  display: flex;
+  flex-direction: row; /* Make children align horizontally */
+  gap: 20px; /* Optional: space between cards */
+  flex-wrap: nowrap; /* Prevent wrapping, if desired */
+  overflow-x: auto; /* Allow horizontal scrolling if too wide */
+}

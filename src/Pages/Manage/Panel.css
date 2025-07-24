@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.WrapperManage {
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+}
+.float {
+    margin-top: 20px;
+}
